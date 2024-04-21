@@ -1,0 +1,58 @@
+{% load static %}
+
+
+
+<aside class="app-sidebar sticky !topacity-0" id="sidebar">
+    <div class="container-xl xl:!p-0">
+        <!-- Start::main-sidebar -->
+        <div class="main-sidebar mx-0">
+        <!-- Start::nav -->
+        <nav class="main-menu-container nav nav-pills flex-column sub-open">
+            <div class="landing-logo-container my-auto hidden lg:block">
+            <div class="responsive-logo">
+                
+                
+                <a class="responsive-logo-dark" href="{% url 'main'%}" aria-label="Brand"><span class="text-white fw-bolder">FOOD PRICE PREDICTION</span></a>
+                   
+            </div>
+            </div>
+            <div class="slide-left hidden" id="slide-left"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24"> <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path> </svg></div>
+            <ul class="main-menu">
+                <!-- Start::slide -->
+                <li class="slide">
+                    <a class="side-menu__item" href="#home">
+                        <span class="side-menu__label">Home</span>
+                    </a>
+                </li>
+                <!-- End::slide -->
+                <!-- Start::slide -->
+                <li class="slide">
+                    <a href="#about" class="side-menu__item">
+                        <span class="side-menu__label">About</span>
+                    </a>
+                </li>
+    
+               
+                <!-- End::slide -->
+                <!-- Start::slide -->
+                <li class="slide">
+                    <a href="#contact" class="side-menu__item">
+                        <span class="side-menu__label">Contact</span>
+                    </a>
+                </li>
+               
+
+            </ul>
+            <div class="slide-right hidden" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24"> <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path> </svg></div>
+            <div class="lg:flex hidden space-x-2 rtl:space-x-reverse">
+            <a href="{% url 'register'%}" class="ti-btn w-[6.375rem] ti-btn-primary-full m-0 p-2">Sign
+                Up</a>
+            
+            </div>
+        </nav>
+        <!-- End::nav -->
+
+        </div>
+        <!-- End::main-sidebar -->
+    </div>
+</aside>
